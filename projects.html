@@ -2,21 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Max Chen's Personal Website">
-  <meta name="author" content="Max Chen and Bootstrap contributors">
-  <title>Max Chen</title>
-  <link rel="icon" href="./img/icon_400x400.jpeg">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/docs.css" rel="stylesheet">
-  <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-  <script src="./js/bootstrap.bundle.min.js"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Max Chen's Personal Website">
+    <meta name="author" content="Max Chen and Bootstrap contributors">
+    <title>Max Chen</title>
+    <link rel="icon" href="./img/icon_400x400.jpeg">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/docs.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style>
+        .card-img-top {
+          object-fit: cover;
+          object-position: center;
+          height: 250px;      
+        }
+      </style>
+  </head>
 
 <body class="text-bg-dark">
+
   <nav class="sticky-top bg-dark shadow-lg">
     <div class="container-fluid col-xxl-8">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
@@ -24,760 +32,280 @@
           <span class="fs-4 text-white">Max Chen</span>
         </a>
         <ul class="nav nav-pills">
-          <li><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li><a href="./index.html" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="./research.html" class="nav-link px-2 text-white">Research</a></li>
           <li><a href="./teaching.html" class="nav-link px-2 text-white">Teaching</a></li>
           <li><a href="./projects.html" class="nav-link px-2 text-secondary">Projects</a></li>
-           <!-- <li><a href="./blog.html" class="nav-link px-2 text-white">Blog & Tutorials</a></li> -->
           <li><a href="./attachments/Max-Chen.pdf" target="_blank" class="nav-link px-2 text-white">CV</a></li>
         </ul>
       </header>
     </div>
   </nav>
-  <main class="container-md">
-    <div class="bd-main order-1">
-      <div class="container-md bd-toc mt-4 mb-4 my-md-0 ps-xl-3 mb-lg-5 text-white">
-        <strong class="d-block h4 my-2 pb-2 border-bottom">On this page</strong>
-        <nav id="TableOfContents">
-          <ul>
-            <li><a href="#augmented-reality" class="h6">Augmented Reality</a>
-              <ul>
-                <li><a href="#stack-ar">Stack AR</a></li>
-                <li><a href="#flow-chem">Flow Chemistry</a></li>
-                <li><a href="#ar-building-blocks">Brick Block in AR</a></li>
-                <li><a href="#food-chain-ar">Food Chain AR</a></li>
-                <li><a href="#sewn-into-memory">Sewn Into Memory</a></li>
-                <li><a href="#hololens-woz">HoloLens Wizard-of-Oz Kit</a></li>
-              </ul>
-            </li>
-            <li><a href="#virtual-reality" class="h6">Virtual Reality</a>
-              <ul>
-                <li><a href="#delsys">Delsys's Training Games</a></li>
-                <li><a href="#wheelup">Wheelup</a></li>
-                <li><a href="#360-labs">360 Lab Tours</a></li>
-              </ul>
-            </li>
-            <li><a href="#novel-interfaces" class="h6">Novel Interfaces</a>
-              <ul>
-                <li><a href="#bci-walking-sim">BCI-informed Visuals</a>
-                </li>
-                <li><a href="#bci-live-coding">BCI Live Coding</a></li>
-                <li><a href="#wheelup">Wheelup: Alternative Controllers</a></li>
-              </ul>
-            </li>
-            <li><a href="#immersive-experiences" class="h6">Immersive Experiences</a>
-              <ul>
-                <li><a href="#holiday-escape">Escape Room</a></li>
-                <li><a href="#dreamland">Dream Land</a></li>
-                <li><a href="#collection">Non-linear Storytelling</a></li>
-              </ul>
-            </li>
-            <li><a href="#games" class="h6">Game Design & Culture</a>
-              <ul>
-                <li><a href="#fac">Pandemic Simulator</a></li>
-                <li><a href="#circuit-dungeon">Circuit Dungeon</a></li>
-                <li><a href="#murder-mystery">Murder Mystery Games</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">My Projects</h1>
+          <p class="lead text-muted">Explore some of the projects I have worked on, showcasing my skills in development, research, and design. </p>
+        </div>
       </div>
+    </section>
 
-      <div class="bd-content ps-lg-4">
-        <h1 id="augmented-reality" class="mt-4 mb-4">Augmented Reality</h1>
-        <p>Augmented reality (AR) is a technology that renders computer-generated images, sounds, or other sensory
-          enhancements onto a user's view of the real world. It is often achieved through the use of a device such as a
-          smartphone, tablet, or specialized headset that displays the augmented reality content. </p>
-        <p> AR can be used in a variety of ways, such as to provide information or assistance in real-time, to enhance
-          entertainment experiences, or to facilitate communication and collaboration. For example, a person using an AR
-          app on their smartphone might see virtual labels or graphics overlaid on physical objects in the real world,
-          or might be able to interact with virtual objects that appear to be in the same physical space as the user.
-        </p>
-        <p>
-          AR technology has the potential to revolutionize many industries, including education, gaming, and healthcare,
-          by making it possible to access and interact with digital content in a more natural and immersive way.</p>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-        <!-- Project Start-->
-        <div id="stack-ar" class="container-lg mt-5 mb-4">
-          <h3> <i class="fas fa-flask fa-fw me-2"></i>Stack AR</h3>
-        </div>
 
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/stack-ar-teaser-1.png" class="mx-lg-auto img-fluid" width="400">
-              <img src="./img/stack-ar-teaser-2.png" class="mx-lg-auto img-fluid" width="400">
+            <div class="col">
+                <div class="card bg-dark shadow-lg">
+                    <img src="https://www.massdigi.org/wp-content/themes/massdigi.4.0/images/massDigiLogo.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                    <div class="card-body">
+                        <h2>Game Pedagogy</h2>
+                        <p class="card-text">
+                            This research examines the internship and training opportunities offered at MassDiGI (Massachusetts 
+                            Digital Games Institute), focusing on how these experiences are designed to foster creativity, technical skills, 
+                            and teamwork among participants. 
+                        </p>
+                        <div class="mb-3">
+                            <span class="badge bg-secondary">Game Development</span>
+                            <span class="badge bg-secondary">Educational Research</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="btn-group">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3649921.3649999" class="btn btn-sm btn-outline-primary">Research Article</a>
+                                <a href="https://www.massdigi.org/" class="btn btn-sm btn-outline-primary">Program Website</a>
+                            </div>
+                        </div>
+                        <small class="text-white">In Progress</small>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i><a class="text-white"
-                  href="./attachments/CHIPlay_WIP_Stackable_Music.pdf">Research Article</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Research In Progress</li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a class="text-white"
-                    href="https://jingruchenmax.github.io/StackAR/">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Prof. Gillian Smith
-                </li>
-              </ul>
-              <p>
-                Augmented reality (AR) allows the rendering of digital content on top of the physical space, which is a 
-                promising medium for tangible interaction. Marker-based AR is widely used thanks to its low costand ease of 
-                integration, but the gameful aspect of manipulating the physical AR markers remains understudied. 
-                In this paper, we explore the stacking mechanics of transparent AR markers and create an AR music game called Stackable Music. 
-                Stackable Music can be developed, assembled, and set up at the home or office with a printer using several sheets of transparent film and a PC or mobile device with a camera.
-              </p>
+            
+            <div class="col">
+                <div class="card bg-dark shadow-lg">
+                    <iframe class="bd-placeholder-img card-img-top" height="225" src="https://my.matterport.com/show/?m=4kYRmoR3DnP" frameborder="0" allowfullscreen></iframe>
+            
+                    <div class="card-body">
+                        <h2>360 Labs</h2>
+                        <p class="card-text">
+                            Virtual walkthroughs and training sessions using 360-degree immersive environments for enhanced remote 
+                            learning experiences.
+                        </p>
+                        <div class="mb-3">
+                            <span class="badge bg-secondary">VR Development</span>
+                            <span class="badge bg-secondary">Training</span>
+                            <span class="badge bg-secondary">Remote Learning</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="btn-group">
+                                <a href="https://my.matterport.com/show/?m=RXnySyU5uzE" class="btn btn-sm btn-outline-primary">Lab Demo</a>
+                                <a href="https://my.matterport.com/show/?m=96wuVTd4QYe" class="btn btn-sm btn-outline-primary">Exhibition Demo</a>
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3649921.3656982" class="btn btn-sm btn-outline-primary">Article</a>                     
+                            </div>  
+                        </div>
+                        <small class="text-white">In Progress</small>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <!-- Project End-->
 
-        <!-- Project Start-->
-        <div id="flow-chem" class="container-lg mt-5 mb-4">
-          <h3> <i class="fas fa-flask fa-fw me-2"></i>Flow Chemistry</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/flow-chem-0.jpg" class="mx-lg-auto img-fluid" width="400">
-              <img src="./img/flow-chem-1.jpg" class="mx-lg-auto img-fluid" width="400">
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i>MRTK 2.4.7</li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Research In Progress</li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a class="text-white"
-                    href="https://ids.wpi.edu/flow-chemistry/">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Claire Li, Noelle Rakotondravony, Hilson
-                  Shrestha, Karen Royer, Laurie Mazza, Shano Liang, Varun Bhat, Prof. Lane Harrison, Prof. Robert
-                  Dempski
-                </li>
-              </ul>
-              <p>Worked with Professor Robert Dempski in summer 2020, we developed a HoloLens AR application for
-                training students to assemble components in order. HoloLens AR enables the user to watch the tutorial
-                while working on the real-life components at the same time.
-                We worked as a team of 6, spending 2 months to make this application.
-              </p>
-              <p>
-                Using mixed reality in chemistry laboratory settings is a perfect fit because you can get access to
-                both virtual content and real-life at the same time. Head-mounted AR serves as an additional
-                information source to the researcher, which doesn’t affect his/her ability in observing real-life
-                events. This is crucial especially for chemistry laboratories because if the researcher’s attention is
-                fully attracted by an electronic device, it might cause safety issues.
-              </p>
+          <div class="col">
+            <div class="card bg-dark shadow-lg">
+              <img src="./img/flowchem.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+              <div class="card-body">
+                <h2>Flow Chemistry AR</h2>
+                <p class="card-text">Developed a HoloLens AR application to train students on assembling lab components safely and efficiently.</p>
+                <div class="mb-3">
+                    <span class="badge bg-secondary">Mixed Reality</span>
+                    <span class="badge bg-secondary">Education</span>
+                    <span class="badge bg-secondary">Chemistry Education</span>
+                  </div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="btn-group">
+                    <a href="https://github.com/WPI-IDeaS/FlowAR" class="btn btn-sm btn-outline-primary">GitHub</a>
+                    <a href="https://pubs.acs.org/doi/full/10.1021/acs.jchemed.3c00807" class="btn btn-sm btn-outline-primary">Article</a>
+                    <a href="https://www.wpi.edu/news/announcements/wpi-researchers-publish-study-mixed-reality-industrial-workforce-training" class="btn btn-sm btn-outline-primary">News</a>
+                  </div>
+                </div>
+                <small class="text-muted">Completed: 2023</small>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Project End-->
+        
+          <div class="col">
+              <div class="card bg-dark shadow-lg">
+                <img src="./img/stack-ar-teaser-1.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+  
+                <div class="card-body">
+                    <h2>Stack AR</h2>
+                  <p class="card-text">An augmented reality music game that explores the stacking mechanics of transparent AR markers.</p>
+                  <div class="mb-3">
+                    <span class="badge bg-secondary">AR Development</span>
+                    <span class="badge bg-secondary">Game Design</span>
+                    <span class="badge bg-secondary">Music Interaction</span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="btn-group">
+                      <a href="https://jingruchenmax.github.io/StackAR/" class="btn btn-sm btn-outline-primary">Website</a>
+                      <a href="https://dl.acm.org/doi/10.1145/3573382.3616071" class="btn btn-sm btn-outline-primary">Article</a>
+                      <a href="https://youtu.be/pAF2ckJ4YSA" class="btn btn-sm btn-outline-primary">Video</a>
+                    </div>
+                  </div>
+                  <small class="text-muted">Completed: 2023</small>
+                </div>
+              </div>
+         </div>
 
-        <!-- Project Start-->
-        <div id="ar-building-blocks" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-gamepad fa-fw me-2"></i>Brick Block in AR</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/NU80Zm4EHEM;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+
+         <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <img src="./img/delsys-movement-game-combine.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+        
+                <div class="card-body">
+                    <h2>Muscular Training Games</h2>
+                    <p class="card-text">
+                        VR games designed for children with muscular dystrophy to encourage participation in clinical recovery training 
+                        through engaging seated gameplay experiences.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">VR Development</span>
+                        <span class="badge bg-secondary">Healthcare</span>
+                        <span class="badge bg-secondary">Inclusive Design</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                    </div>
+                    <small class="text-muted">Completed: 2023</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i>MRTK 2.8.2</li>
-                <li class=""><i class="fas fa-code fa-fw me-2"></i><a class="text-white"
-                    href="https://github.com/jingruchenmax/block_building_ar" target="_blank">GitHub</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Side Project In Progress</li>
-              </ul>
-              <p>An AR remake of Pskar Stalbergs Brick Block. The original brick block can be found <a class="text-white"
-                href="https://oskarstalberg.com/game/house/index.html" target="_blank">Here</a>.
-            </p>
-            </div>
-          </div>
         </div>
-
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="food-chain-ar" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-school fa-fw me-2"></i>Food Chain AR</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/YHvYKbpBUHA;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <iframe width="400" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/2x16edDa5oQ;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <img src="./img/food-chain-ar-workflow.jpg" class="mx-lg-auto img-fluid">
+        
+        <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <img src="./img/tutorial.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+        
+                <div class="card-body">
+                    <h2>Wheelup</h2>
+                    <p class="card-text">
+                        A high-fidelity VR wheelchair simulator co-designed with local communities to explore multimodal interfaces 
+                        for guidance and control in virtual environments.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">VR Development</span>
+                        <span class="badge bg-secondary">Participatory Design</span>
+                        <span class="badge bg-secondary">Accessibility</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="btn-group">
+                            <a href="https://github.com/GP2P/Wheel-Up" class="btn btn-sm btn-outline-primary">GitHub</a>
+                            <a href="https://ieeexplore.ieee.org/document/10333203" class="btn btn-sm btn-outline-primary">Article</a>
+                            <a href="https://www.wpi.edu/news/wpi-and-umass-lowell-put-new-spin-wheelchair-training" class="btn btn-sm btn-outline-primary">News</a>
+                        </div>
+                    </div>
+                    <small class="text-muted">Completed: 2023</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>iOS, Android, Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i>MRTK 2.8.2, Vuforia v10</li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Research In Progress</li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a class="text-white"
-                    href="https://sites.google.com/view/wramp-2022-ar/home" target="_blank">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Rachel Foye, Dinah Agyemang, Ava Stockton
-                </li>
-              </ul>
-              <p>The overall objective of this research is to develop an Augmented Reality (AR) assisted learning tool
-                with educators and students involved in the design. Balancing between informative and engaging, the AR
-                tool is aiming to become both engaging and helpful in terms of enhancing high cognitive level learning
-                outcomes. Applying AR in education in an interdisciplinary research area including pedagogy, learning
-                science, interactive media, and psychology. This study follows a participatory research approach and
-                includes educational technology engineers, educators, and students to co-create an AR tool iteratively –
-                engineers come up with a prototype, educators give critical feedback, and students evaluate the tool
-                from both engagement and learning outcomes aspects. The study will bring insights into how to utilize
-                participatory design in AR educational tools and how AR has an impact on students learning outcomes, as
-                well as effective ways of prototyping AR experiences.
-              </p>
-            </div>
-          </div>
         </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="sewn-into-memory" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-couch fa-fw me-2"></i>Sewn Into Memory</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/fabric-ar-poster.png" class="mx-lg-auto img-fluid">
+        
+        <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <img src="./img/bci_visuals_game_screenshots.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+        
+                <div class="card-body">
+                    <h2>BCI-informed Visuals</h2>
+                    <p class="card-text">
+                        A walking simulator with brain-computer interface (BCI)-adapted visual effects, exploring the impact of 
+                        mental states on player immersion using fNIRS brain activity measurements.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">BCI</span>
+                        <span class="badge bg-secondary">Visual Feedback</span>
+                        <span class="badge bg-secondary">Alternative Controller</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="btn-group">
+                            <a href="./attachments/Chen_thesis.pdf" class="btn btn-sm btn-outline-primary">Thesis</a>
+                        </div>
+                    </div>
+                    <small class="text-muted">Completed</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i>MRTK 2.8.2, Vuforia v10</li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Major Qualifying Project Completed</li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i><a href="https://shrutipmahajan.com/"
-                    class="text-white" target="_blank">Shruti Mahajan</a>, Amanda Jones, Megan Letendre, Elise Nerden, Prof. Gillian
-                  Smith, Prof. Erin Solovey</li>
-              </ul>
-              <p>Personal memories are associated with much more than just a picture or a video, for example, clothes,
-                T-shirts, or other fabrics. Such tangible/tactile objects are important for memory and nostalgia. Quilts
-                are often made with a loved one's old shirts or for special occasions. These quilts have special
-                cultural importance and interaction that triggers emotional responses by touch. We envision a future of
-                AR where people will be able to augment personal items with visuals and audio. Family or friends
-                co-creating a memory quilt that is a collection of special clothing items pieced together to celebrate
-                important milestones, special events, or the life of a loved one augmented with AR visualizations and
-                audio.
-              </p>
-            </div>
-          </div>
         </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="hololens-woz" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-hat-wizard fa-fw me-2"></i>HoloLens Wizard-of-Oz Kit</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row flex-lg-row-reverse">
-            <div class="col-lg-4 mb-4">
-
+        
+        <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <iframe class="bd-placeholder-img card-img-top" height="225" src="https://www.youtube.com/embed/4J_MeGeoCak?mute=true" frameborder="0" allowfullscreen></iframe>
+        
+                <div class="card-body">
+                    <h2>Holiday Escape</h2>
+                    <p class="card-text">
+                        A 30-minute escape room experience designed for group problem-solving with puzzles embedded in a 
+                        story about rebellious elves hijacking a train to Santa's toy factory.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">Escape Room</span>
+                        <span class="badge bg-secondary">Game Design</span>
+                        <span class="badge bg-secondary">Team Collaboration</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="btn-group">
+                            <a href="https://escaperoom.wpi.edu/" class="btn btn-sm btn-outline-primary">Website</a>
+                        </div>
+                    </div>
+                    <small class="text-muted">Completed</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Microsoft Hololens 2</a></li>
-                <li class=""><i class="fas fa-archive fa-fw me-2"></i>MRTK 2.8.2</li>
-                <li class=""><i class="fas fa-code fa-fw me-2"></i><a class="text-white"
-                    href="https://github.com/jingruchenmax/block_building_ar" target="_blank">GitHub</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Paused</li>
-              </ul>
-              <p>Integrating new interfaces in AR experience is challenging because of the uncertainty in the
-                interfacing technology. Wizard of Oz is a HCI technique in which subjects interact with a computer
-                system that subjects believe to be autonomous, but which is actually being operated or partially
-                operated by an unseen human researcher. This project builds the bridge between researcher the "wizard"
-                and HoloLens.</p>
-            </div>
-          </div>
         </div>
-        <!-- Project End-->
-
-        <h1 id="virtual-reality" class="mt-4 mb-4">Virtual Reality</h1>
-        <p>Virtual reality (VR) is a simulation of a three-dimensional environment that can be
-          interacted with in a seemingly real or physical way by a person using specialized equipment, such as a headset
-          with a screen or screens inside. VR immerses the user in a simulated experience that can include sight, sound,
-          and other sensations.</p>
-        <p> In VR, the user is completely immersed in a simulated environment, while in AR, the user can still see and
-          interact with the real world while also seeing and interacting with virtual content.
-        </p>
-
-        <!-- Project Start-->
-        <div id="delsys" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-clinic-medical fa-fw me-2"></i>Delsys's Training Games</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/delsys-movement-game-combine.jpg" class="mx-lg-auto img-fluid" width="400">
+        
+        <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <iframe class="bd-placeholder-img card-img-top" height="225" src="https://www.youtube.com/embed/4btZEvH6Ypw?mute=true" frameborder="0" allowfullscreen></iframe>
+        
+                <div class="card-body">
+                    <h2>Collection</h2>
+                    <p class="card-text">
+                        An experimental storytelling project combining origami and non-linear narratives. Explore the story through 
+                        physical interaction with a treasure box filled with mysterious clues.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">Game Design</span>
+                        <span class="badge bg-secondary">Origami</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                    </div>
+                    <small class="text-muted">Completed</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Vive Pro 3 (Android)</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Contract</li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Laurie Mazza, Michael Schubert, Mengliu Lu,
-                  Prof. Jennifer deWinter, Monty Sharma, Delsys Team</li>
-              </ul>
-              <p>This project is the development of VR games targeted toward children with muscular dystrophy in the 8
-                to 12-year-old age range. They have a range of movement capabilities but all gameplay is to be seated
-                and have periods of rest built-in. The goal is to encourage the children to participate in clinical
-                recovery training through gameplay interactions instead of direct instructions.
-              </p>
-              <p>
-                We worked as a team of 4 and spent 4 months on the development. This project is a collaboration among
-                Delsys, Worcester Polytechnic Institute, and Clark University.
-              </p>
-            </div>
-          </div>
         </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="wheelup" class="container-lg mt-5 mb-4">
-          <h3><i class="fab fa-accessible-icon fa-fw me-2"></i>Wheelup</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/tutorial.png" class="mx-lg-auto img-fluid" width="400">
-              <img src="./img/workspace.png" class="mx-lg-auto img-fluid" width="400">
-              <img src="./img/visualization.png" class="mx-lg-auto img-fluid" width="400">
+        
+        <div class="col">
+            <div class="card bg-dark shadow-lg">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&loop=false&delayms=30000" frameborder="0" height="250" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <div class="card-body">
+                    <h2>Jubensha</h2>
+                    <p class="card-text">
+                        Research into the adaptation and cultural localization of murder mystery games in China, namely Jubensha. Focus on the 
+                        storytelling dynamic through collaborative sensemaking.
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge bg-secondary">Murder Mystery</span>
+                        <span class="badge bg-secondary">Cultural Studies</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-primary">Manuscript Under Review</a>
+                        </div>
+                    </div>
+                    <small class="text-muted">In Progress</small>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>PC, Oculus Quest 2</a></li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a href="https://github.com/GP2P/Wheel-Up" target="_blank"
-                    class="text-white">GitHub</a></li>
-                    <li class=""><i class="fas fa-link fa-fw me-2"></i><a href="./attachments/CoG_2023_WheelUp.pdf" target="_blank"
-                      class="text-white">Research Article</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Claire Li, Yihong Xu, Alex Sirois, Risa
-                  Kiani, Prof. Yunus Telliel, Prof. Yuko Oda, Prof. Erika Lewis, Prof. Kelilah Wolkowicz</li>
-              </ul>
-              <p>WheelUp is a collaborative research project between Worcester Polytechnic Institute (WPI) and
-                University of Massachusetts Lowell. The overall objective of the study is to co-design a high-fidelity
-                VR wheelchair simulator for diverse body. It uses participatory design to engage local communities with
-                alternate-abilities for the development of a wheelchair training simulator with multimodal input
-                interfaces for wheelchair guidance and control. Simulated and virtual reality (VR) training allows users
-                to practice difficult or stressful tasks in a safe environment. The virtual environment will integrate
-                joystick, muscle signals (EMG), and eye gaze (EOG). Aesthetic attributes of the simulator such as color,
-                texture, and layout will be considered to enhance the overall visual experience, making the user
-                experience more enjoyable and appealing. The simulated environment includes standardized hospital or
-                home; variable environments with changing obstacles such as shopping centers or workplaces. (PI: Prof.
-                kelilah wolkowicz)
-              </p>
-            </div>
-          </div>
+        </div>     
+
         </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="360-labs" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-street-view fa-fw me-4"></i>360 Lab Tours</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe class="mx-lg-auto img-fluid" height='480' src='https://my.matterport.com/show/?m=4kYRmoR3DnP'
-                frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Browser</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>In Progress</li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a href="https://ids.wpi.edu/360-lab-project/" target="_blank"
-                    class="text-white">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Shano Liang</li>
-              </ul>
-              <p>We create 360 lab tours for virtual walkthroughs and training sessions.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <h1 id="novel-interfaces" class="mt-4 mb-4">Novel Interfaces</h1>
-        <p>Novel interfaces have the potential to revolutionize the way we interact with computers and technology.</p>
-        <p>EMG is a method of measuring the electrical activity of muscles, and it can be used to control prosthetics or
-          other devices through muscle signals. This can be particularly useful for people with physical disabilities,
-          allowing them to perform tasks that would otherwise be difficult or impossible.
-        </p>
-        <p>
-          BCI, on the other hand, involves using brain activity to control devices or machines. This has the potential
-          to allow people with severe physical impairments to communicate and interact with the world around them in
-          ways that were previously unimaginable. BCI technology is still in the early stages of development, but it
-          holds great promise for the future.
-        </p>
-
-        <!-- Project Start-->
-        <div id="bci-walking-sim" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-hiking fa-fw me-4"></i>BCI-informed Visuals</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/bci_visuals_design_comparision.png" class="mx-lg-auto img-fluid mb-2" width="400"
-                height="200">
-              <img src="./img/bci_visuals_game_screenshots.jpeg" class="mx-lg-auto img-fluid mb-2" width="400"
-                height="200">
-              <img src="./img/bci_visuals_system_description.jpeg" class="mx-lg-auto img-fluid mb-2" width="400"
-                height="200">
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Experimental, NIRx's fNIRS System</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i><a href="./attachments/Chen_thesis.pdf"
-                    class="text-white" target="_blank">Thesis</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Prof. Erin Solovey, Prof. Gillian Smith</li>
-              </ul>
-              <p>we explore the use of brain-computer interface (BCI)-adapted visual effects to support atmosphere in a
-                walking simulator, and investigate its impact on player-reported immersive experience. While players
-                were using a keyboard or joystick controller to control the basic movement of a character, their mental
-                state was accessed by a non-invasive BCI technique called functional near-infrared spectroscopy (fNIRS)
-                to implicitly adjust the visual effects. Specifically, when less brain activity is detected, the
-                players' in-game vision becomes blurry and distorted, recreating the impression of losing focus.
-                fNIRS measures blood oxygenation levels, are related to brain activation. When a particular area of the
-                brain is activated, it receives an increase in blood flow. With this biological indication, we designed
-                a BCI-controlled game, in which the vision becomes blurry and distorted when less brain activity is
-                detected, recreating the impression of losing focus.To analyze the player’s experience, we conducted a
-                within-subjects study where participants played both a BCI-controlled and non-BCI-controlled game and
-                completed a questionnaire after each session. We then conducted a semi-structured interview to
-                investigate player perceptions of the impact the BCI had on their experiences. The results showed that
-                players had slightly improved immersion in the BCI-adaptive game, with the temporal dissociation score
-                significantly different. Players also reported the BCI-adaptive visual effects are realistic and
-                natural, and they enjoyed using BCI as a supplemental control.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="bci-live-coding" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-laptop-code fa-fw me-4"></i>BCI Live Coding</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" height="225" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/iRHd3wV-DlY;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>TidalCycles, Processing, Muse S</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Course Project</li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a href="./attachments/Chen_thesis.pdf"
-                    class="text-white" target="_blank">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Samin Shahriar Tokey, Prof. Charlie Roberts,
-                  Prof. Gillian Smith</li>
-              </ul>
-              <p>
-                We did a live coding performance using visuals and audio integrated Brain-Computer
-                Interface input. We asked for a volunteer (audience or co-performer) to wear the BCI
-                headset while we perform. With the BCI signal from the audience, we will generate audience-adapted
-                visuals for our performance.</p>
-              <p>
-                We followed the approach of performance-led research in-the-wild, which falls under the broad
-                umbrella of Research through Design. This means research findings are emerging from reflection on the
-                making of specific interactive artifacts. Being performance-led means the practice is led by artists,
-                who follow an artistic process and deliver a professional artistic product, in our case, a live coding
-                performance. Being in-the-wild means the artistic product is experienced by public audiences, in our
-                case, being under critical judgment by the live coding cohort. The approach involves documenting both
-                the artist’s reflection on producing the work and the audiences’ experience of it.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <h1 id="immersive-experiences" class="mt-4 mb-4">Immersive Experiences</h1>
-        <p>An immersive experience is an activity or environment that fully engages a person's senses and allows
-          them to fully immerse themselves in the experience. Here, Immersive experiences refer to interactive exhibits
-          or installations, and miscellaneous interactive products.
-        </p>
-
-        <!-- Project Start-->
-        <div id="holiday-escape" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-train fa-fw me-4"></i><em>Holiday Escape</em>: Escape Room</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" height="225" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/4J_MeGeoCak;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Escape Room</a></li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a href="https://escaperoom.wpi.edu/"
-                    class="text-white" target="_blank">Project Website</a></li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>IMGD 5100 Class,
-                  Prof. Dean O'Donnell </li>
-              </ul>
-              <p class="border-bottom mt-4"><i class="fas fa-unlock fa-fw me-2"></i><b>The Escape Room</b></p>
-              <p>Holiday Escape is one of our best WPI Annual Escape Room series. Our escape room is
-                a 30-minute experience for groups of people where the goal is to leave or escape the locked room
-                by solving a series of puzzles. </p>
-              <p>This project is a class project of IMGD 5100 Interactive Media. We worked as a team
-                of 16 and spent 2 months to design, build, and run the escape room.</p>
-              <p class="border-bottom mt-4"><i class="fas fa-industry fa-fw me-2"></i><b>The Story</b></p>
-              <p>You are boarding the train for your holiday tour of Santa’s toy shop, but something
-                is afoot… the conductor can’t seem to get the doors to open. Upon successfully boarding the
-                train, are greeted by a message from The Elves, who have rebelled and hijacked the train after
-                tired of years of unsatisfactory working conditions making toys for the shop. If the train
-                reaches its destination, you will be turned into elves and forced to take their place in the
-                workshops for all eternity! </p>
-              <p>If players fail, they are “turned into elves” and wear elf hats for final photo. If players succeed,
-                the elves unionize and improve their working conditions without
-                capturing the players</p>
-              <p class="border-bottom mt-4"><i class="fas fa-atom fa-fw me-2"></i><b>My Role as the Lead Designer
-                  ("Puzzlemaster")</b></p>
-              <p> I led puzzle design and iteration, built and tested puzzle prototypes collected and analyzed playtest
-                feedback.
-              </p>
-              <p class="border-bottom mt-4"><b><i class="fas fa-pen-alt fa-fw me-2"></i>Lessons Learned</b></p>
-              <p> The narrative in escape room needs to be explicit and straightforward.
-                However, not all players care about the story. Embedding puzzles to storyline is the creative
-                process that matters the overall experience.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="dreamland" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-mountain fa-fw me-4"></i>Dream Land</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" height="225" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/ImKbGksvETs;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Theme Park</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Shanghai, China 2020</li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Jiadi Zuo, Ekings Multimedia</li>
-              </ul>
-              <p class="border-bottom mt-4"><i class="fas fa-dice-d20 fa-fw me-2"></i>The Show</b></p>
-              <p>IKALI Dreamland is the first comprehensive children's amusement park in China under
-                the theme of scenario-based costume play. It integrates the novel concept of role play and
-                edutainment for children, which is put into practice in the form of a nationwide brand park
-                chain. </p>
-              <p>In December 2020, Ekings Multimedia and IKALI jointly operated Dreamland Shanghai.
-                Daily admission flow reaches 300 at its peak.</p>
-              <p class="border-bottom mt-4"><i class="fas fa-laptop-code fa-fw me-2"></i><b>My Role</b></p>
-              <p> During Jun 2020 to December 2020, I worked as a programmer at Ekings
-                Multimedia, where I worked with clients on designing and developing interactive media
-                applications and games with various needs. </p>
-              <p> I designed and developed a mini game Air Balloon Pilots, in which player controls
-                their air balloon by balancing its mass.
-              <p> I assisted in setting up and testing the infrared camera multi-touch screen system. It uses IR camera
-                to track the user's hand gesture and projector to cast the interaction feedbacks, therefore it
-                can turn any flat surface into a touch screen. </p>
-              <p class="border-bottom mt-4"><i class="fas fa-pen-alt fa-fw me-2"></i><b>Lessons Learned</b></p>
-              <p>Immersive experience pulls a viewer into another real or imagined world, enabling
-                them to manipulate and interact with their environment. It has a long history, from Panoroma
-                landscape painting to Cinerama widescreen projection process, to Cave Automatic Virtual
-                Environment where projectors are directed to walls of a room-sized cube. While the comtemporary
-                screen media erode, if not erase, viewer's perceptual differentiations between the actual
-                reality and the virual reality, the gap between real and virtual is where designers perform
-                their the magic touch.</p>
-              <p>The market of projection mapping, IR camera touch screens, and sensor-driven
-                interactions is open - the entry cost is relatively low comparing to VR/AR hardware research.
-                The future lies in designing a meaningful and aesthetic experience. Level 99
-                Entertainment combines escape rooms, small "challenges", and arena games with microcontrollers
-                and sensors, making the traditional plays into self-reset "smart" games. TeamLab brings artists,
-                programmers, CG animators, mathematicians and architects together to navigate the confluence of
-                art, science, technology, and the natural world. The list of examples can go on. </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-
-        <!-- Project Start-->
-        <div id="collection" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-mountain fa-fw me-4"></i><em>Collection</em>: Non-learning Storytelling</h3>
-        </div>
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" height="225" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/4btZEvH6Ypw;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <img src="./img/poster_01.png" class="mx-lg-auto img-fluid mb-2" width="400" height="200">
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Craft + Experimental Storytelling</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Presented at PAX East 2022</li>
-                <li class=""><i class="fas fa-user-friends fa-fw me-2"></i>Shano Liang, Tony Dai</li>
-              </ul>
-              <p class="border-bottom mt-4"><i class="fas fa-dice-d20 fa-fw me-2"></i>The Show</b></p>
-              <p> <em>Collection </em> is an experiment combining non-linear storytelling and traditional origami. It
-                appears as an opened package, with a letter and a treasure box inside. The treasure box contains old
-                pieces of newspaper clips, lab notes, drawings, and segments of a diary, forming a bizarre tragedy about
-                the Werners.
-              </p>
-              <p>
-                It is up to you to decide how to explore the Werners’ story. There are 16 pockets on the top, but more
-                are hidden underneath them. It is a tangible physical book that you can even tear apart. Search through
-                the pieces in the Collection to discover the truth.
-              </p>
-              <p class="border-bottom mt-4"><i class="fas fa-pen-alt fa-fw me-2"></i><b>Lessons Learned</b></p>
-              <p>This treasure box format is similar to the take-home escape room adventures. Instead of having multiple
-                physical objects, you have only one complex object. However, it also limits the format of story segments
-                to be paper-based.
-              </p>
-              <p>Origami and tangible interface provide the enjoyment and engagement while exploring the puzzle.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <h1 id="games" class="mt-4 mb-4">Game Design & Culture</h1>
-        <p>Game can be designed to achieve a specific educational or training goal, rather than purely for
-          entertainment. Serious game is a type of game that is specifically designed to support learning and teaching.
-          These games can be used in a variety of settings, including the classroom, after-school programs, and
-          homeschooling. They can be used to teach a wide range of subjects, including math, science, reading, and
-          social studies. Like serious games, games for education are often designed to be more educational in nature
-          than traditional video games. However, they may still incorporate elements of entertainment and enjoyment to
-          keep learners engaged.</p>
-        <p>
-          Game culture studies is a field of study that investigates the cultural, social, and psychological aspects of
-          video games and gaming culture. Video games are an increasingly significant
-          part of contemporary culture, and understanding the cultural, social, and psychological impacts of games is
-          important for understanding the ways in which they shape and are shaped by society. Video games have
-          the potential to be used as a tool for learning, education, and social change, and game culture studies can
-          help us understand how games can be used effectively in these contexts. Video games are a rapidly
-          evolving medium, and game culture studies helps us understand the ways in which games are changing and how
-          they might continue to evolve in the future.
-        </p>
-
-        <!-- Project Start-->
-        <div id="fac" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-virus fa-fw me-4"></i><em>Fighting Against Coronavirus</em>: Pandamic Simulator</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <iframe width="400" height="225" class="mx-lg-auto img-fluid"
-                src="https://www.youtube.com/embed/thWtKaDL10Y;autoplay=0&mute=1" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <img src="./img/fac-pin.jpg" class="mx-lg-auto img-fluid mb-2" width="400" height="200">
-              <img src="./img/LEADimageShano.png" class="mx-lg-auto img-fluid mb-2" width="400" height="200"
-                >
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-4"></i>PC</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-4"></i><a
-                    href="https://www.wpi.edu/news/chance-run-city-besieged-virus" target="_blank" class="text-white">WPI News</a></li>
-              </ul>
-              <p>Fighting Against Coronavirus game is a single-player strategy game. The player takes the role of a
-                government official in “City W” starting from January 1, 2020. The player’s mission is to guide local
-                disease prevention and control work, as well as take care of the people at the epicenter of the ongoing
-                outbreak with minimal loss in human life and economic growth. We worked as a team of 3, spending 4
-                months to make this game.
-              </p>
-              <p>
-                I designed the in-game epidemic model by modifying the SEIR model (Susceptible, Exposed, Infectious, and
-                Recovered), which makes me think of the close connection between mathematical modeling, system dynamics
-                and game. Later I learned Machinations framework from the book <em>Game Mechanics Advanced Game
-                  Design</em>, and it is similar to the stock and flow diagram, which confirms the close connection
-                between in-game economic system and system dynamic.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-        <!-- Project Start-->
-        <div id="circuit-dungeon" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-lightbulb fa-fw me-4"></i>Circuit Dungeon</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <img src="./img/circuit_at_dungeon_5x4.png" class="mx-lg-auto img-fluid mb-2" width="400" height="200">
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Browser</a></li>
-                <li class=""><i class="fas fa-link fa-fw me-2"></i><a
-                    href="https://jingruchenmax.itch.io/circuit-dungeon" class="text-white" target="_blank">Ready to Play</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>Hibernate</li>
-              </ul>
-              <p>Cirbuit@Dungeon is a web application for learning basic electronics. This project is supported by WPI
-                Academic Research Computing Center.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
-
-
-
-        <!-- Project Start-->
-        <div id="murder-mystery" class="container-lg mt-5 mb-4">
-          <h3><i class="fas fa-skull fa-fw me-4"></i>Chinese Murder Mystery Games - "Jubensha"</h3>
-        </div>
-
-        <div class="container-lg mt-2">
-          <div class="row flex-lg-row-reverse">
-            <div class="col-lg-4 mb-4">
-
-            </div>
-            <div class="col-lg-8">
-              <ul class="list-unstyled">
-                <li class=""><i class="fas fa-laptop fa-fw me-2"></i>Research</a></li>
-                <li class=""><i class="fas fa-pen-alt fa-fw me-2"></i>In Progress</li>
-              </ul>
-              <p> The importation of western games and gaming culture have influenced China, while localization and
-                creativity of its derivative games form a unique new trend. Murder mystery games, also known as “script
-                killing”, is an ideal object for studying the adaptation of the games across cultures. Digitally,
-                players tend to use mobile applications to hold murder mystery games virtually, and structured gameplay
-                rules are set within the application and modified as needed by writers. In-person murder mystery games
-                create a new market for renting and hosting the game, and under this circumstance, a combination of
-                escape room and live-action murder mystery game is born. In this study, I
-                focused on what is distinctly “Chinese” in these game, looking specifically at in-game
-                environments, external environments, and users in determining localization. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project End-->
       </div>
+    </div>
   </main>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
+</html>
