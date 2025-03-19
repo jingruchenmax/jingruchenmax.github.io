@@ -12,56 +12,143 @@
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="text-bg-dark">
+<body>
 
-  <nav class="sticky-top bg-dark shadow-lg">
-    <div class="container-fluid col-xxl-8">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-          <span class="fs-4 text-white">Max Chen</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="./research.html" class="nav-link px-2 text-white">Research</a></li>
-          <li><a href="./teaching.html" class="nav-link px-2 text-secondary">Teaching</a></li>
-          <li><a href="./projects.html" class="nav-link px-2 text-white">Projects</a></li>
-           <!-- <li><a href="./blog.html" class="nav-link px-2 text-white">Blog & Tutorials</a></li> -->
-          <li><a href="./attachments/Max-Chen.pdf" target="_blank" class="nav-link px-2 text-white">CV</a></li>
-        </ul>
-      </header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <!-- Clickable Brand -->
+      <a href="./index.html" class="brand">Max Chen</a>
+  
+      <!-- Navigation Links (Always Visible & Centered) -->
+      <div class="nav-links">
+        <a href="./research.html" class="nav-btn">Research</a>
+        <a href="./teaching.html" class="nav-btn">Teaching</a>
+        <a href="./services.html" class="nav-btn">Services</a>
+        <a href="./projects.html" class="nav-btn">Projects</a>
+        <a href="./blog.html" class="nav-btn">Blog & Tutorials</a>
+        <a href="./attachments/Max-Chen-CV.pdf" target="_blank" class="nav-btn cv-btn">CV</a>
+      </div>
+  
+      <!-- Dark Mode Toggle -->
+      <button id="theme-toggle" class="btn-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
     </div>
   </nav>
+  
 
   <main>
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Teaching & Mentorship</h1>
-          <p class="lead text-muted">I am passionate about empowering students and fostering creativity through teaching and mentorship. </p>
-        </div>
+    <div id="header-section"></div>
+
+    <script src="headerSection.js"></script>
+    <script>
+        insertHeaderSection("header-section", "Teaching & Mentorship", "I am passionate about empowering students and fostering creativity through teaching and mentorship.");
+    </script>
+
+<div class="container">
+  <div class="row g-5">
+      <!-- Left Column (Academic Talks, Mentorship, Research) -->
+      <div class="col-lg-6">
+          
+
+          <!-- Guest Lectures -->
+          <h3><b>🎓 Guest Lectures</b></h3>
+          <ul class="custom-list">
+              <li><b>Olfactory Displays</b> <br> WPI IMGD 3100: Novel Interfaces for Interactive Environments (2025)</li>
+              <li><b>Brain-computer Interfaces and Games</b> <br> WPI CS 525 / NEU 505: Brain-Computer Interaction (Spring 2024)</li>
+              <li><b>Arcade Games</b> <br> WPI IMGD 1001: The Game Development Process (2024)</li>
+              <li><b>Integrating AI Tools into Life Science Workforce Development</b> <br> WPI CH 421X: AI in the Molecular Life Sciences (2024)</li>
+              <li><b>Number Systems</b> <br> WPI Chapter Girls Talk Math (2023-24)</li>
+          </ul>
+
+          <!-- Undergraduate Mentoring -->
+          <h3><b>👩‍🏫 Undergraduate Mentoring</b></h3>
+          <ul class="custom-list">
+              <li><b>Developing a Brain-Computer Interface for Storytelling</b> <br> 
+                  Jagger Polvino, James Cao, Andrew Nguyen (2024-25)</li>
+              <li><b>Sewn into Memory: Reliving Feelings through AR</b> <br> 
+                  Amanda Jones, Megan Letendre, Elise Nerden (2023-24)</li>
+          </ul>
+
+          <!-- Research Mentorship -->
+          <h3><b>🔬 Research Mentorship</b></h3>
+          <ul class="custom-list">
+              <li><b>Developing an Arcade Game</b> <br> Ian Tschida, Lana Acevedo (2024)</li>
+              <li><b>Designing Interactive Virtual Tours for Education</b> <br>
+                  Dashiell Elliott, co-published at FDG ’24 (2024)</li>
+              <li><b>Developing Fabric Interfaces</b> <br> Reilly Desai (2023)</li>
+              <li><b>Developing HoloLens AR with Unity</b> <br> Amanda Jones (2022)</li>
+              <li><b>Developing and Evaluating a Wheelchair Virtual Training Environment</b> <br> 
+                  Yihong Xu, co-published at CoG ’23 (2022)</li>
+          </ul>
+
+          <!-- Women's Research and Mentorship Program (WRAMP) -->
+          <h3><b>👩‍🔬 Women's Research and Mentorship Program (WRAMP)</b></h3>
+          <ul class="custom-list">
+              <li><b>Co-designing an Augmented Reality Book with Educators and Students</b> <br> 
+                  Rachel Foye, Ava Stockton, and Dinah Agyemang (2022)</li>
+          </ul>
+
       </div>
-    </section>
 
-  <div class="container col-xxl-8 g-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5">
-            <div class="">
-                <p><b>Invited Talks</b></p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> "Brain-computer Interfaces and Games". WPI CS 525 / NEU 505: Special Topics in Computer Science: Brain-Computer Interaction (Spring 2024)</p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> "Designing Exergames: Impact of Immersive Experience Beyond Engagement and Motivation". First Workshop on VR for Exergaming (VR4Exergame), IEEE VR 2023, Hybrid, March 2023</p>
-                <p><b>Guest Lectures</b></p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> "Arcade Games". IMGD 1001: The Game Development Process (2024)</p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> "Integrating AI Tools into Life Science Workforce Development". CH 421X: AI in the Molecular Life Sciences (2024)</p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> "Number Systems". Girls Talk Math at WPI Chapter (Summer 2023,2024)</p>
-                <p><i class="fa fa-ellipsis-h me-2"></i> “Brain-computer Interfaces and Games”. WPI IMGD 3100: Novel Interfaces for Interactive Environment (2023)</p>
-              </div>
-        </div>
-
+      <!-- Right Column (Industry & Professional Mentorship) -->
+      <div class="col-lg-6">
+          
+        <h3 class="highlight-section"><b>🎮 Professional & Industry Mentorship</b></h3>
+        <p>
+            I also actively contribute to game development education and mentorship, bridging the gap between academia and industry. 
+            Through hands-on guidance, technical leadership, and creative direction, I help aspiring developers refine their skills, 
+            navigate the game development pipeline, and launch successful projects.
+        </p>
+    
+        <ul class="custom-list">
+            <!-- MassDigi Mentorship -->
+            <li>
+                <b>Graduate Assistant @ <a href="https://www.massdigi.org/" target="_blank">Massachusetts Digital Games Institute (MassDigi)</a></b> <br>
+                <i>Cohort SIP & ESIP '24</i> <br>
+                Provided high-level mentorship to <b>42 students across 7 interdisciplinary teams</b> in the 
+                <b>MassDigi Summer Innovation Program (SIP)</b>, a nationally recognized game development accelerator. 
+                Guided teams through the full game development lifecycle—from ideation to publishing—while advising on 
+                game design principles, agile workflows, market analysis, and publishing strategies. Fostered a 
+                studio-like production environment to prepare students for careers in the gaming industry by connecting 
+                them with industry professionals and ensuring hands-on, real-world development experience.
+                
+                <br><br><b>💡 Published Game Titles from SIP & ESIP '24:</b>  
+                <ul class="game-list">
+                    <li><a href="https://youtu.be/ecBIBjc2bJM?si=HGgJrv3SjlnuGQY3" target="_blank"><b>Uh Oh, AI!</b></a> – <a href="https://apps.apple.com/us/app/uh-oh-ai/id6504200579" target="_blank">iOS</a> | <a href="https://play.google.com/store/apps/details?id=com.MassDIGI.Opeechee" target="_blank">Android</a></li>
+                    <li><a href="https://youtu.be/DSmBG4jATjY?si=5aagh4dBsDSYANWx" target="_blank"><b>No Party In Paradise</b></a> – <a href="https://apps.apple.com/us/app/no-party-in-paradise/id6504292296" target="_blank">iOS</a> | <span class="text-muted">Android</span></li>
+                    <li><a href="https://youtu.be/B9qtrcK0s9w?si=he5bPOpFHyDM5A7L" target="_blank"><b>Hamster Ball Blitz</b></a> – <a href="https://apps.apple.com/us/app/hamster-ball-blitz/id6504194684" target="_blank">iOS</a> | <a href="https://play.google.com/store/apps/details?id=com.MassDiGI.Leaf" target="_blank">Android</a></li>
+                    <li><a href="https://youtube.com/shorts/OEWMkowiGro?si=EuuePioyr0894xAg" target="_blank"><b>Distant Desert</b></a> – <a href="https://apps.apple.com/us/app/distant-desert/id6504695434" target="_blank">iOS</a> | <a href="https://play.google.com/store/apps/details?id=com.MassDigi.BakedBeans" target="_blank">Android</a></li>
+                    <li><a href="https://youtube.com/shorts/NuJ3V3xQK70?si=X3oA1JfknUYIkZdT" target="_blank"><b>Ninja Camel</b></a> – <a href="https://apps.apple.com/us/app/ninja-camel/id6504830804" target="_blank">iOS</a> | <span class="text-muted">Android</span></li>
+                    <li><a href="https://youtu.be/zx7rMGcAtXY?si=pGqVVsww25jwte2Z" target="_blank"><b>Camel vs Pirate</b></a> – <a href="https://apps.apple.com/us/app/camelvspirates/id6504695119" target="_blank">iOS</a> | <span class="text-muted">Android</span></li>
+                    <li><a href="https://youtu.be/RbTfr6W34ZI?si=BATsJ9uOo2zUbCqm" target="_blank"><b>Bedouin Ride</b></a> – <a href="https://apps.apple.com/us/app/bedouin-ride/id6504778059" target="_blank">iOS</a> | <span class="text-muted">Android</span></li>
+                </ul>
+            </li>
+    
+            <!-- WPI Intentional Design Studio Mentorship -->
+            <li>
+                <b>Senior Member & Research Mentor @ <a href="https://ids.wpi.edu/" target="_blank">WPI Intentional Design Studio (IDeaS)</a> </b> <br>
+                <i>September 2020 - Present</i> <br>
+                I provide technical mentorship and creative guidance to students across VR/AR, educational games, and interactive media projects, fostering hands-on learning from concept to deployment. Through advanced workshops and training sessions, I equip students with expertise in HCI methodologies, UX research, and rapid prototyping, ensuring they develop industry-relevant skills.
+            </li>
+        </ul>
+    
+        <p>
+        </p>
+      </div>
   </div>
+</div>
+
+
  </main>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="extraSpace.js"></script>
 </body>
 
 

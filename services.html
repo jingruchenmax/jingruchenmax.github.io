@@ -12,48 +12,76 @@
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="text-bg-dark">
+<body>
 
-  <nav class="sticky-top bg-dark shadow-lg">
-    <div class="container-fluid col-xxl-8">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-          <span class="fs-4 text-white">Max Chen</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="./research.html" class="nav-link px-2 text-white">Research</a></li>
-          <li><a href="./teaching.html" class="nav-link px-2 text-white">Teaching</a></li>
-          <li><a href="./projects.html" class="nav-link px-2 text-secondary">Services</a></li>
-          <li><a href="./projects.html" class="nav-link px-2 text-white">Projects</a></li>
-           <!-- <li><a href="./blog.html" class="nav-link px-2 text-white">Blog & Tutorials</a></li> -->
-          <li><a href="./attachments/Max-Chen.pdf" target="_blank" class="nav-link px-2 text-white">CV</a></li>
-        </ul>
-      </header>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-container">
+    <!-- Clickable Brand -->
+    <a href="./index.html" class="brand">Max Chen</a>
+
+    <!-- Navigation Links (Always Visible & Centered) -->
+    <div class="nav-links">
+      <a href="./research.html" class="nav-btn">Research</a>
+      <a href="./teaching.html" class="nav-btn">Teaching</a>
+      <a href="./services.html" class="nav-btn">Services</a>
+      <a href="./projects.html" class="nav-btn">Projects</a>
+      <a href="./blog.html" class="nav-btn">Blog & Tutorials</a>
+      <a href="./attachments/Max-Chen-CV.pdf" target="_blank" class="nav-btn cv-btn">CV</a>
     </div>
-  </nav>
 
-    <div class="container col-xxl-8 g-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5">
-            <div class="">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Services </h1>
-                <p><b>Reviewer</b></p>
-                <p>ACM Foundations of Digital Games (2024,2025)</p>
-                <p>ACM CHI (2024,2025)</p>
-                <p>ACM Conference on Games (2023)</p>
-                <p><b>Organization Committee</b></p>
-                <p>Co-organizer, 3rd Workshop on Academic Game Development, co-located with FDG ‘25</p>
-                <p>Subcommittee Chair Assistant of CHI '25</p>
-                <p>Local Chair at the 2024 Foundations of Digital Games (FDG '24)</p>
-              </div>
-        </div>
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" class="btn-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
+  </div>
+</nav>
+<div id="header-section"></div>
+
+<script src="headerSection.js"></script>
+<script>
+    insertHeaderSection("header-section", "Services", "I volunteer for academic service roles to support growth, collaboration, and community engagement within my field and program.");
+</script>
+
+<div class="container"> 
+      <!-- Reviewer Roles -->
+      <h3><b>📑 Reviewer</b></h3>
+      <ul class="custom-list">
+        <li><b>Conferences:</b> CHI Work '25, DIS '25, FDG ('24, '25), CHI ('24, '25), CHI PLAY '24, CoG '23</li>
+        <li><b>Outstanding Review Recognition:</b> CHI '25 (LBW)</li>
+        <li><b>Journals:</b> Interacting with Computers</li>
+      </ul>
+
+      <!-- Conference & Workshop Organization -->
+      <h3><b>📢 Conference & Workshop Organization</b></h3>
+      <ul class="custom-list">
+        <li><b>Program Committee Member:</b> CHI Work '25</li>
+        <li><b>Co-organizer:</b> 3rd Workshop on Academic Game Development (co-located with FDG '25)</li>
+        <li><b>Subcommittee Chair Assistant:</b> CHI '25 (Understanding People — Statistical and Quantitative Methods)</li>
+        <li><b>Local Chair:</b> Foundations of Digital Games (FDG '24)</li>
+      </ul>
+
+      <!-- Other Academic Service -->
+      <h3><b>🎓 Other Academic Service</b></h3>
+      <ul class="custom-list">
+        <li><b>Graduate Student Representative:</b> IMGD Graduate Program Committee (2023-25)</li>
+        <li><b>Graduate Student Representative:</b> IMGD Department Committee (2023-25)</li>
+        <li><b>Workshop Organizer:</b> WPI Women in STEM Conference (2023)</li>
+        <li><b>Workshop Organizer:</b> Latino Education Institute, Worcester State University (2022)</li>
+      </ul>
 
     </div>
+  </div>
+</div>
+
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="extraSpace.js"></script>
 </body>
 
 

@@ -1,0 +1,150 @@
+[
+    {
+        "title": "Juicy VR Design",
+        "description": "Explores the impact of visual, audio, and haptic design in VR on player experience.",
+        "tags": ["AR/VR", "Game Design", "Physiological Sensors"],
+        "type": "image",
+        "media": "./img/vrjuice.jpg",
+        "links": [
+            {"label": "GitHub", "url": "https://github.com/jingruchenmax/unity-fruit-ninja-vr"}
+        ],
+        "status": "In Progress"
+    },
+
+    {
+        "title": "Game Pedagogy",
+        "description": "Research on internship opportunities at MassDiGI, exploring how they cultivate creativity, technical skills, and teamwork.",
+        "tags": ["Game Development", "Educational Research"],
+        "type": "image",
+        "media": "https://www.massdigi.org/wp-content/themes/massdigi.4.0/images/massDigiLogo.png",
+        "links": [
+            {"label": "Research Article", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3649999"},
+            {"label": "MassDIGI Website", "url": "https://www.massdigi.org/"}
+        ],
+        "status": "In Progress"
+    },
+    {
+        "title": "360 Labs",
+        "description": "Virtual walkthroughs and training sessions using 360-degree immersive environments for enhanced remote learning.",
+        "tags": ["VR Development", "Training", "Remote Learning"],
+        "type": "iframe",
+        "media": "https://my.matterport.com/show/?m=4kYRmoR3DnP",
+        "links": [
+            {"label": "Lab Demo", "url": "https://my.matterport.com/show/?m=RXnySyU5uzE"},
+            {"label": "Exhibition Demo", "url": "https://my.matterport.com/show/?m=96wuVTd4QYe"},
+            {"label": "Article", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3656982"}
+        ],
+        "status": "In Progress"
+    },
+    {
+        "title": "Flow Chemistry AR",
+        "description": "A HoloLens AR application that teaches students safe lab assembly techniques.",
+        "tags": ["Mixed Reality", "Education", "Chemistry Education"],
+        "type": "image",
+        "media": "./img/flowchem.png",
+        "links": [
+            {"label": "GitHub", "url": "https://github.com/WPI-IDeaS/FlowAR"},
+            {"label": "Article", "url": "https://pubs.acs.org/doi/full/10.1021/acs.jchemed.3c00807"},
+            {"label": "News", "url": "https://www.wpi.edu/news/announcements/wpi-researchers-publish-study-mixed-reality-industrial-workforce-training"}
+        ],
+        "status": "Completed: 2023"
+    },
+    {
+        "title": "Stack AR",
+        "description": "An augmented reality music game that explores the stacking mechanics of transparent AR markers.",
+        "tags": ["AR Development", "Game Design", "Music Interaction"],
+        "type": "image",
+        "media": "./img/stack-ar-teaser-1.png",
+        "links": [
+            {"label": "Website", "url": "https://jingruchenmax.github.io/StackAR/"},
+            {"label": "Article", "url": "https://dl.acm.org/doi/10.1145/3573382.3616071"},
+            {"label": "Video", "url": "https://youtu.be/pAF2ckJ4YSA"}
+        ],
+        "status": "Completed: 2023"
+    },
+    {
+        "title": "Muscular Training Games",
+        "description": "VR games designed for children with muscular dystrophy to encourage participation in clinical recovery training through engaging seated gameplay experiences.",
+        "tags": ["VR Development", "Healthcare", "Inclusive Design"],
+        "type": "image",
+        "media": "./img/delsys-movement-game-combine.jpg",
+        "links": [
+            {"label": "Article", "url": "https://ieeexplore.ieee.org/abstract/document/10108581]"}],
+
+        "status": "Completed: 2023"
+    },
+    {
+        "title": "WheelUp",
+        "description": "A high-fidelity VR wheelchair simulator co-designed with local communities to explore multimodal interfaces for guidance and control in virtual environments.",
+        "tags": ["VR Development", "Participatory Design", "Accessibility"],
+        "type": "image",
+        "media": "./img/tutorial.png",
+        "links": [
+            {"label": "GitHub", "url": "https://github.com/GP2P/Wheel-Up"},
+            {"label": "Article", "url": "https://ieeexplore.ieee.org/document/10333203"},
+            {"label": "WPI News", "url": "https://www.wpi.edu/news/wpi-and-umass-lowell-put-new-spin-wheelchair-training"}
+        ],
+        "status": "Completed: 2023"
+    },
+    {
+        "title": "BCI-informed Visuals",
+        "description": "A walking simulator with brain-computer interface (BCI)-adapted visual effects, exploring the impact of mental states on player immersion using fNIRS brain activity measurements.",
+        "tags": ["BCI", "Visual Feedback", "Alternative Controller"],
+        "type": "image",
+        "media": "./img/bci_visuals_game_screenshots.jpeg",
+        "links": [
+            {"label": "Thesis", "url": "https://digital.wpi.edu/concern/etds/70795c02w?locale=en"},
+            {"label": "Article", "url": "https://doi.org/10.1145/3582437.3582448"},
+            {"label": "Video", "url": "https://youtu.be/1YL7hk9_xZU"}
+        
+        ],
+        "status": "Completed: 2023"
+    },
+    {
+        "title": "Holiday Escape",
+        "description": "A 30-minute escape room experience designed for group problem-solving with puzzles embedded in a story about rebellious elves hijacking a train to Santa's toy factory.",
+        "tags": ["Escape Room", "Game Design", "Team Collaboration"],
+        "type": "iframe",
+        "media": "https://www.youtube.com/embed/4J_MeGeoCak?mute=true",
+        "links": [
+            {"label": "Video", "url": "https://youtu.be/4J_MeGeoCak?si=UmO0Sl9HBBTn7cQ0"},
+            {"label": "WPI Escape Room Website", "url": "https://escaperoom.wpi.edu/"}
+        ],
+        "status": "Completed & Exhibited: 2021"
+    },
+    {
+        "title": "Collection",
+        "description": "An experimental storytelling project combining origami and non-linear narratives. Explore the story through physical interaction with a treasure box filled with mysterious clues.",
+        "tags": ["Game Design", "Origami"],
+        "type": "iframe",
+        "media": "https://www.youtube.com/embed/4btZEvH6Ypw?mute=true",
+        "links": [
+            {"label": "Trailer Video", "url": "https://www.youtube.com/watch?v=4btZEvH6Ypw&feature=youtu.be"},
+            {"label": "PAX East Website", "url": " https://east.paxsite.com/"}
+        ],
+        "status": "Completed & Exhibited: 2022"
+    },
+    {
+        "title": "Jubensha",
+        "description": "Research into the adaptation and cultural localization of murder mystery games in China, namely Jubensha. Focus on the storytelling dynamic through collaborative sensemaking.",
+        "tags": ["Murder Mystery", "Cultural Studies"],
+        "type": "iframe",
+        "media": "https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&loop=false&delayms=30000",
+        "links": [
+            {"label": "Journal Article", "url": "https://dl.acm.org/doi/10.1145/3721121"}
+        ],
+        "status": "Completed: 2025"
+    },
+    {
+        "title": "Spidey Sense",
+        "description": "A haptic-enabled headband that enhances user awareness and immersion in VR. Won MIT RealityHack 2025’s Hardware Jaw-Dropping Prize.",
+        "tags": ["Sensor Integration", "AR/VR"],
+        "type": "image",
+        "media": "./img/teampickle.jpg",
+        "links": [
+            {"label": "Devpost", "url": "https://devpost.com/software/spidey-sense-l93art"},
+            {"label": "GitHub", "url": "https://github.com/TEAM-PICKLE/SpideySense"}
+        ],
+        "status": "Hackathon Project"
+    }
+]

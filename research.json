@@ -1,0 +1,142 @@
+[
+    {
+        "title": "The Collaborative Sensemaking Play of Jubensha Games: A Deconstruction, Taxonomy, and Analysis",
+        "authors": ["Shano Liang", "Max Chen", "Phoebe O. Toups Dugas", "Gillian Smith", "Rose Bohrer"],
+        "type": "journal",
+        "venue": "ACM Games Just Accepted",
+        "location": "",
+        "date": "February 2025",
+        "description": "",
+        "link": "https://doi.org/10.1145/3721121"
+    },
+    {
+        "title": "FlowAR: A Mixed Reality Program to Introduce Continuous Flow Concepts",
+        "authors": ["Max Chen", "Yichen Li", "Hilson Shrestha", "Noëlle Rakotondravony", "Andrew Teixeira", "Lane Harrison", "Robert E. Dempski"],
+        "type": "journal",
+        "venue": "Journal of Chemical Education",
+        "location": "",
+        "date": "2024",
+        "description": "",
+        "link": "https://doi.org/10.1021/acs.jchemed.3c00807"
+    },
+    {
+        "title": "Exploring the Purpose and Development of Academic Games: Analyzing Games Reported in FDG Publications from 2007 to 2024",
+        "authors": ["Max Chen", "Edward Morrell"],
+        "type": "conference",
+        "venue": "FDG ‘25",
+        "location": "",
+        "date": "2025",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Game Development as Project-Based Learning: Synthesizing Postmortems of Student-Created Mobile Games",
+        "authors": ["Max Chen", "Gillian Smith"],
+        "type": "conference",
+        "venue": "FDG '24",
+        "location": "Worcester, MA, USA",
+        "date": "2024",
+        "description": "",
+        "link": "https://doi.org/10.1145/3649921.3649999"
+    },
+    {
+        "title": "Exploring the Complexity of Jubensha: A Taxonomy and Analysis of Chinese Murder Mystery Role-Playing Games",
+        "authors": ["Max Chen", "Shano Liang", "Phoebe Toups Dugas", "Gillian Smith", "Rose Bohrer"],
+        "type": "conference",
+        "venue": "FDG ‘24",
+        "location": "Worcester, MA, USA",
+        "date": "May 2024",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Designing Interactive Virtual Tours for Education: Two Case Studies on Virtual Tours of the Chemistry and Biochemistry Laboratories",
+        "authors": ["Max Chen", "Dashiell Elliott", "Robert Dempski", "Raúl Orduña Picón"],
+        "type": "conference",
+        "venue": "FDG '24",
+        "location": "Worcester, MA, USA",
+        "date": "2024",
+        "description": "",
+        "link": "https://doi.org/10.1145/3649921.3656982"
+    },
+    {
+        "title": "Bridging Cultural Representation and Game Making: Analyzing the Experiences, Outcomes, and Lessons of Early-Stage Game Developers in a Professional Development Program",
+        "authors": ["Max Chen"],
+        "type": "presentation",
+        "venue": "WPI Graduate Research Innovation Exchange",
+        "location": "",
+        "date": "2025",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Stackable Music: A Marker-Based Augmented Reality Music Synthesis Game",
+        "authors": ["Max Chen", "Shano Liang", "Gillian Smith"],
+        "type": "conference",
+        "venue": "CHI PLAY Companion '23",
+        "location": "Stratford, Canada",
+        "date": "2023",
+        "description": "",
+        "link": "https://doi.org/10.1145/3573382.3616071"
+    },
+    {
+        "title": "Extended Reality, Extending Chemistry Learning: Supporting Students in Understanding Safety and Molecular Polarity in the College General Chemistry Lab",
+        "authors": ["Dashiell Elliott", "Claire Li", "Robert Dempski", "Raúl Orduña Picón", "Max Chen"],
+        "type": "presentation",
+        "venue": "2025 Northeastern Chemistry Education Research Symposium",
+        "location": "",
+        "date": "2025",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Accessible Worlds? Accessibility, Design, and the Right to Play",
+        "authors": ["Jennifer deWinter", "Hana Hanifah", "Gillian Smith", "Max Chen"],
+        "type": "panel",
+        "venue": "FDG ‘25",
+        "location": "Vienna & Graz",
+        "date": "April 2025",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Integrating Biophysics Immersive Learning Tools Across Campus",
+        "authors": ["Robert Dempski", "Claire Li", "Shano Liang", "Max Chen"],
+        "type": "presentation",
+        "venue": "Building a Network of Biophysics Education",
+        "location": "Virtual",
+        "date": "June 2022",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Integrating Immersive Learning Tools across Campus and Beyond",
+        "authors": ["Robert Dempski", "Andrew Texeira", "Claire Li", "Shano Liang", "Max Chen"],
+        "type": "presentation",
+        "venue": "Advanced Manufacturing and Processing Conference",
+        "location": "Washington DC",
+        "date": "June 2022",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Collection - An Experiment of Combining Non-linear Narrative with Crafts",
+        "authors": ["Max Chen", "Shano Liang", "Tian Dai"],
+        "type": "demo",
+        "venue": "PAX East 2022",
+        "location": "",
+        "date": "March 2022",
+        "description": "",
+        "link": "https://east.paxsite.com/"
+    },
+    {
+        "title": "Designing Exergames: Impact of Immersive Experience Beyond Engagement and Motivation",
+        "authors": ["Max Chen"],
+        "type": "talk",
+        "venue": "IEEE VR 2023 Workshop on VR for Exergaming (VR4Exergame 2023)",
+        "location": "",
+        "date": "2023",
+        "description": "",
+        "link": ""
+    }
+]
