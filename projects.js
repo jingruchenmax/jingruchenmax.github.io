@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="mb-3">
                                 ${project.tags.map(tag => `<span class="badge bg-secondary">${tag}</span>`).join(" ")}
                             </div>
-                            <div class="btn-group">
-                                ${project.links.map(link => `<a href="${link.url}" class="btn btn-sm btn-outline-primary">${link.label}</a>`).join(" ")}
+                            <div>
+                                ${project.links.map(link => `<a href="${link.url}" class="btn btn-outline-primary">${link.label}</a>`).join(" ")}
                             </div>
                             <small class="small-text">${project.status}</small>
                         </div>

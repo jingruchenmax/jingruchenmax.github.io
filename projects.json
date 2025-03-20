@@ -18,7 +18,7 @@
         "type": "image",
         "media": "https://www.massdigi.org/wp-content/themes/massdigi.4.0/images/massDigiLogo.png",
         "links": [
-            {"label": "Research Article", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3649999"},
+            {"label": "Publication - Postmortem", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3649999"},
             {"label": "MassDIGI Website", "url": "https://www.massdigi.org/"}
         ],
         "status": "In Progress"
@@ -32,7 +32,7 @@
         "links": [
             {"label": "Lab Demo", "url": "https://my.matterport.com/show/?m=RXnySyU5uzE"},
             {"label": "Exhibition Demo", "url": "https://my.matterport.com/show/?m=96wuVTd4QYe"},
-            {"label": "Article", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3656982"}
+            {"label": "Publication", "url": "https://dl.acm.org/doi/abs/10.1145/3649921.3656982"}
         ],
         "status": "In Progress"
     },
@@ -44,7 +44,7 @@
         "media": "./img/flowchem.png",
         "links": [
             {"label": "GitHub", "url": "https://github.com/WPI-IDeaS/FlowAR"},
-            {"label": "Article", "url": "https://pubs.acs.org/doi/full/10.1021/acs.jchemed.3c00807"},
+            {"label": "Publication", "url": "https://pubs.acs.org/doi/full/10.1021/acs.jchemed.3c00807"},
             {"label": "News", "url": "https://www.wpi.edu/news/announcements/wpi-researchers-publish-study-mixed-reality-industrial-workforce-training"}
         ],
         "status": "Completed: 2023"
@@ -57,7 +57,7 @@
         "media": "./img/stack-ar-teaser-1.png",
         "links": [
             {"label": "Website", "url": "https://jingruchenmax.github.io/StackAR/"},
-            {"label": "Article", "url": "https://dl.acm.org/doi/10.1145/3573382.3616071"},
+            {"label": "Publication", "url": "https://dl.acm.org/doi/10.1145/3573382.3616071"},
             {"label": "Video", "url": "https://youtu.be/pAF2ckJ4YSA"}
         ],
         "status": "Completed: 2023"
@@ -69,7 +69,7 @@
         "type": "image",
         "media": "./img/delsys-movement-game-combine.jpg",
         "links": [
-            {"label": "Article", "url": "https://ieeexplore.ieee.org/abstract/document/10108581]"}],
+            {"label": "Related Publication", "url": "https://ieeexplore.ieee.org/abstract/document/10108581]"}],
 
         "status": "Completed: 2023"
     },
@@ -81,7 +81,7 @@
         "media": "./img/tutorial.png",
         "links": [
             {"label": "GitHub", "url": "https://github.com/GP2P/Wheel-Up"},
-            {"label": "Article", "url": "https://ieeexplore.ieee.org/document/10333203"},
+            {"label": "Publication", "url": "https://ieeexplore.ieee.org/document/10333203"},
             {"label": "WPI News", "url": "https://www.wpi.edu/news/wpi-and-umass-lowell-put-new-spin-wheelchair-training"}
         ],
         "status": "Completed: 2023"
@@ -94,7 +94,7 @@
         "media": "./img/bci_visuals_game_screenshots.jpeg",
         "links": [
             {"label": "Thesis", "url": "https://digital.wpi.edu/concern/etds/70795c02w?locale=en"},
-            {"label": "Article", "url": "https://doi.org/10.1145/3582437.3582448"},
+            {"label": "Publication", "url": "https://doi.org/10.1145/3582437.3582448"},
             {"label": "Video", "url": "https://youtu.be/1YL7hk9_xZU"}
         
         ],
@@ -131,7 +131,9 @@
         "type": "iframe",
         "media": "https://docs.google.com/presentation/d/e/2PACX-1vSMJvWDmyEkE4Fb5EiuE1_58us7KxbmSSaPMky8FkZ5cqsa7PUsawpWgaAr_y5y0ULUpnTxSaqb01wd/embed?start=false&loop=false&delayms=30000",
         "links": [
-            {"label": "Journal Article", "url": "https://dl.acm.org/doi/10.1145/3721121"}
+            {"label": "Journal Publication", "url": "https://dl.acm.org/doi/10.1145/3721121"},
+            {"label": "Presentation", "url": "#"},
+            {"label": "Panel Talk", "url": "./attachments/CGSAACJ_2022_paper_77.pdf"}
         ],
         "status": "Completed: 2025"
     },
