@@ -93,20 +93,19 @@ body {
 
 /* Navigation Buttons */
 .nav-btn {
+    color: var(--nav-color);
     padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: var(--nav-text);
-    border: 1px solid var(--btn-border);
-    border-radius: 5px;
+    
     font-size: 0.9rem;
     transition: all 0.3s ease-in-out;
-    white-space: nowrap;
 }
 
 /* Button Hover Effect */
 .nav-btn:hover {
-    background-color: var(--btn-hover-background);
-    color: var(--nav-text);
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--nav-hover);
 }
 
 .text-secondary {
@@ -115,34 +114,16 @@ body {
 
 /* Highlighted CV Button */
 .nav-btn.cv-btn {
-    background-color: var(--cv-bg);
-    color: var(--cv-text);
-    font-weight: bold;
-    border: 2px solid var(--cv-border);
+    text-decoration: underline;
+    color: var(--nav-hover);
 }
 
 .nav-btn.cv-btn:hover {
     background-color: var(--cv-hover-bg);
-    color: var(--cv-hover-text);
+    font-weight: bold;
+    font-size: 1rem;
 }
 
-/* Dark Mode */
-.dark-mode {
-    --cv-bg: #F8C12D;
-    --cv-text: #222222;
-    --cv-border: #E0A600;
-    --cv-hover-bg: #E0A600;
-    --cv-hover-text: #121212;
-}
-
-/* Light Mode */
-:root {
-    --cv-bg: #1B53C8;
-    --cv-text: #ffffff;
-    --cv-border: #0E3A91;
-    --cv-hover-bg: #0E3A91;
-    --cv-hover-text: #ffffff;
-}
 
 /* Responsive Adjustments */
 @media (max-width: 900px) {
