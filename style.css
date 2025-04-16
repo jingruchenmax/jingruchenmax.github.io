@@ -102,8 +102,6 @@ body {
 /* Button Hover Effect */
 .nav-btn:hover {
     text-decoration: underline;
-    font-size: 1rem;
-    font-weight: bold;
     color: var(--nav-hover);
 }
 
